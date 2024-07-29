@@ -30,6 +30,9 @@ body {
 }
 
 .head--title {
+  display: flex;
+  gap: 8px;
+  font-size: 24px;
   font-size: 32px;
   font-weight: bold;
 }
@@ -39,12 +42,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 8px;
-}
-
-.head--content > div:nth-child(1) {
-  display: flex;
-  gap: 8px;
-  font-size: 24px;
 }
 
 .emoji {
@@ -110,4 +107,8 @@ body {
   100% {
     color: rgb(206, 110, 110);
   }
+}
+
+#github {
+  cursor: pointer;
 }
