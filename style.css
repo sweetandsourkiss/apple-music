@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
   font-size: 18px;
   font-weight: 500;
-  padding: 20px;
+  padding: 5vh;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 48px;
 }
 
 .main--content {
